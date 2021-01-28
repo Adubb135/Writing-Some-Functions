@@ -1,4 +1,4 @@
-# Writing-Some-Functions
+# Writing Some Functions
 
 ## Goal
 The goal for this program is to write 3 functions in a single program
