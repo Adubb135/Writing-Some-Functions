@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int GCD(int a, int b);
-int ABSV(int c);
+float ABSV(int c);
 int SQRT(int d);
 
 int main()
@@ -23,11 +23,12 @@ int GCD(int a, int b)
 
 
 // Absolute Value Implementation
-int ABSV(int c)
+float ABSV(int c)
 {
-  return 0;
+  if (c < 0)
+    return -(c);
+  return c;
 }
-
 
 // Square Root Implementation
 int SQRT(int d)
