@@ -47,15 +47,12 @@ int GCD(int a, int b)
   return GCD(b, a % b);
 }
 
-
-// Absolute Value Implementation
 float ABSV(float c)
 {
   if (c < 0)
     return -(c);
   return c;
 }
-
 
 // Square Root Implementation
 float SQRT(float d)
